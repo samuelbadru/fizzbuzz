@@ -5,5 +5,9 @@ def fizzbuzz(num)
     'fizz'
   elsif num % 5 == 0 
     'buzz'
+  elsif num.is_a? Integer
+    num
+  else
+    'Try again - not a digit'
   end
 end 
